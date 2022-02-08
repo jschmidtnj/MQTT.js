@@ -13,6 +13,7 @@ export interface IClientOptions extends ISecureClientOptions {
   hostname?: string
   path?: string
   protocol?: 'wss' | 'ws' | 'mqtt' | 'mqtts' | 'tcp' | 'ssl' | 'wx' | 'wxs'
+  socket?: WebSocket
 
   wsOptions?: ClientOptions | ClientRequestArgs
   /**
